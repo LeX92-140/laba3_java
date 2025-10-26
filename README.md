@@ -284,12 +284,15 @@ public Point3D clone() {
 }
 ```
 **Описание:** Переопределен метод clone() для создания независимых копий объектов Point3D.
+
 **Вход:**
+```
 Point3D original = new Point3D(5, 10, 15);
 Point3D cloned = original.clone();
 cloned.setZ(100);
 System.out.println("Оригинал: " + original);
 System.out.println("Клон: " + cloned);
+```
 **Вывод:**
 Оригинал: {5.0;10.0;15.0}
 Клон: {5.0;10.0;100.0}
