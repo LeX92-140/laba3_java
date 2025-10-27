@@ -242,6 +242,7 @@ System.out.println("X1.equalВывод:+ X1.equals(X2));
 Х1 равен городу Х2 - true
 
 ### Задания 8-9: Организация пакетов
+```
 src/main/java/ru/denisov/
 ├─ geometry/Point.java
 ├─ geometry/Point3D.java
@@ -255,6 +256,7 @@ src/main/java/ru/denisov/
 ├─ birds/Cuckoo.java
 ├─ birds/Parrot.java
 ├─ math/FracОписание:main/Main.java
+```
 **Описание:** Все классы организованы в логические пакеты с трехсоставными именами. Главный метод находится только в пакете ru.ivanov.main.
 
 ### Задание 10: Возведение в степень
